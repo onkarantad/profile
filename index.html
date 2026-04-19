@@ -1,154 +1,173 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>Onkar Antad | Senior Data Engineer</title>
-  <meta name="description" content="Onkar Antad - Senior Data Engineer specializing in GCP, PySpark, Kafka, BigQuery, and AI systems.">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta charset="UTF-8">
+<title>Onkar Antad | Senior Data Engineer</title>
+<meta name="description" content="Onkar Antad - Senior Data Engineer | GCP | PySpark | Kafka | BigQuery | AI Engineer">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-  <style>
-    body {
-      margin: 0;
-      font-family: system-ui;
-      background: #0f172a;
-      color: #e2e8f0;
-      line-height: 1.6;
-    }
+<style>
+body {
+  margin: 0;
+  font-family: system-ui;
+  background: #0f172a;
+  color: #e2e8f0;
+}
 
-    .container {
-      max-width: 1000px;
-      margin: auto;
-      padding: 20px;
-    }
+/* Fade-in animation */
+.fade {
+  opacity: 0;
+  transform: translateY(20px);
+  animation: fadeIn 1s forwards;
+}
 
-    h1 {
-      font-size: 42px;
-      margin-bottom: 5px;
-    }
+@keyframes fadeIn {
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
 
-    h2 {
-      color: #38bdf8;
-      margin-top: 0;
-    }
+/* Typing animation */
+.typing {
+  border-right: 2px solid #38bdf8;
+  white-space: nowrap;
+  overflow: hidden;
+  width: 0;
+  animation: typing 3s steps(30, end) forwards;
+}
 
-    .card {
-      background: #1e293b;
-      padding: 25px;
-      margin: 20px 0;
-      border-radius: 12px;
-      transition: transform 0.2s ease;
-    }
+@keyframes typing {
+  to { width: 100%; }
+}
 
-    .card:hover {
-      transform: translateY(-5px);
-    }
+.container {
+  max-width: 1000px;
+  margin: auto;
+  padding: 20px;
+}
 
-    a {
-      color: #38bdf8;
-      text-decoration: none;
-    }
+.card {
+  background: #1e293b;
+  padding: 25px;
+  margin: 20px 0;
+  border-radius: 12px;
+  transition: transform 0.3s ease;
+}
 
-    .skills span {
-      background: #334155;
-      padding: 6px 12px;
-      margin: 5px;
-      display: inline-block;
-      border-radius: 6px;
-      font-size: 14px;
-    }
+.card:hover {
+  transform: scale(1.02);
+}
 
-    .projects div {
-      margin-bottom: 10px;
-    }
+h1 { font-size: 42px; }
+h2 { color: #38bdf8; }
 
-    .btn {
-      display: inline-block;
-      margin-top: 10px;
-      padding: 8px 14px;
-      background: #38bdf8;
-      color: #0f172a;
-      border-radius: 6px;
-      font-weight: bold;
-    }
+.skills span {
+  background: #334155;
+  padding: 6px 12px;
+  margin: 5px;
+  display: inline-block;
+  border-radius: 6px;
+}
 
-    .header {
-      text-align: center;
-      padding: 40px 0;
-    }
+a {
+  color: #38bdf8;
+  text-decoration: none;
+}
 
-    .footer {
-      text-align: center;
-      margin-top: 40px;
-      font-size: 14px;
-      color: #94a3b8;
-    }
-  </style>
+.btn {
+  background: #38bdf8;
+  color: #0f172a;
+  padding: 8px 14px;
+  border-radius: 6px;
+  display: inline-block;
+  margin-top: 10px;
+  font-weight: bold;
+}
+
+.header {
+  text-align: center;
+  padding: 50px 0;
+}
+</style>
 </head>
 
 <body>
-  <div class="container">
 
-    <div class="header">
-      <h1>Onkar Antad</h1>
-      <h2>Senior Data Engineer | AI Engineer</h2>
-      <p>GCP | PySpark | Kafka | BigQuery | Terraform | AI Systems</p>
-    </div>
+<div class="container">
 
-    <div class="card">
-      <h3>About Me</h3>
-      <p>
-        I am Onkar Antad, a Senior Data Engineer with 5+ years of experience building scalable data platforms on Google Cloud Platform (GCP) and Azure Databricks.
-        I specialize in ETL pipelines, real-time data streaming using Kafka, and AI-driven applications using LLMs.
-      </p>
-    </div>
-
-    <div class="card projects">
-      <h3>Featured Projects</h3>
-
-      <div>
-        🚀 <b>GCP ETL Framework</b><br>
-        Scalable ETL system using Cloud Run, BigQuery, and Python.
-      </div>
-
-      <div>
-        ⚡ <b>Kafka CDC Pipeline</b><br>
-        Real-time data ingestion reducing latency to minutes.
-      </div>
-
-      <div>
-        🔥 <b>Lakehouse Architecture</b><br>
-        Bronze-Silver-Gold pipeline using Databricks and Delta Lake.
-      </div>
-
-      <a class="btn" href="https://gitlab.com/straw-hat-crew">View All Projects</a>
-    </div>
-
-    <div class="card">
-      <h3>Skills</h3>
-      <div class="skills">
-        <span>GCP</span>
-        <span>PySpark</span>
-        <span>Kafka</span>
-        <span>BigQuery</span>
-        <span>Terraform</span>
-        <span>Python</span>
-        <span>Databricks</span>
-        <span>Airflow</span>
-      </div>
-    </div>
-
-    <div class="card">
-      <h3>Contact</h3>
-      <p>
-        📧 onkarantad@outlook.com <br>
-        🔗 <a href="https://linkedin.com/in/onkarantad">LinkedIn</a>
-      </p>
-    </div>
-
-    <div class="footer">
-      © 2026 Onkar Antad | Data Engineering Portfolio
-    </div>
-
+  <div class="header fade">
+    <h1 class="typing">Onkar Antad</h1>
+    <h2>Senior Data Engineer | AI Engineer</h2>
+    <p>GCP | PySpark | Kafka | BigQuery | Terraform</p>
   </div>
+
+  <div class="card fade">
+    <h3>About Me</h3>
+    <p>
+      Senior Data Engineer with 5+ years of experience building large-scale data platforms on GCP and Azure Databricks.
+      Experienced in ETL pipelines, Kafka CDC, BigQuery optimization, and AI applications using LLMs and LangChain.
+    </p>
+  </div>
+
+  <div class="card fade">
+    <h3>Experience</h3>
+    <p><b>Accenture</b> (Senior Data Engineer)</p>
+    <ul>
+      <li>Built event-driven ETL pipelines processing millions of records daily</li>
+      <li>Reduced BigQuery cost by 25% via optimization</li>
+      <li>Developed reusable Python ETL framework</li>
+    </ul>
+
+    <p><b>Sapiens</b> (Data Engineer)</p>
+    <ul>
+      <li>Designed Lakehouse (Bronze-Silver-Gold)</li>
+      <li>Kafka CDC reduced latency to minutes</li>
+      <li>Improved Spark performance & cost efficiency</li>
+    </ul>
+  </div>
+
+  <div class="card fade">
+    <h3>Projects</h3>
+    <p>
+      🚀 ETL Framework (GCP)<br>
+      ⚡ Kafka CDC Pipeline<br>
+      🔥 Lakehouse Architecture<br>
+    </p>
+    <a class="btn" href="https://gitlab.com/straw-hat-crew">View GitLab</a>
+  </div>
+
+  <div class="card fade">
+    <h3>Skills</h3>
+    <div class="skills">
+      <span>GCP</span>
+      <span>PySpark</span>
+      <span>Kafka</span>
+      <span>BigQuery</span>
+      <span>Terraform</span>
+      <span>Databricks</span>
+      <span>Python</span>
+    </div>
+  </div>
+
+  <div class="card fade">
+    <h3>Certifications</h3>
+    <p>
+      Google Cloud Professional Architect<br>
+      Google Cloud Data Engineer<br>
+      Databricks Data Engineer Professional
+    </p>
+  </div>
+
+  <div class="card fade">
+    <h3>Contact</h3>
+    <p>
+      📧 onkarantad@outlook.com <br>
+      🔗 <a href="https://linkedin.com/in/onkarantad">LinkedIn</a>
+    </p>
+  </div>
+
+</div>
+
 </body>
 </html>
